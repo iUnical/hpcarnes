@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HP Carnes — Carnicería de barrio en La Molina</title>
+<meta name="description" content="HP Carnes: carnicería de barrio en La Molina. Res, pollo, cerdo, embutidos y menudencia importada, con entrega a domicilio. Calificación 4.3 en Google (201 reseñas).">
+<meta name="theme-color" content="#1B1613">
+<link rel="canonical" href="https://hpcarnes-lamolina.com/">
+
+<!-- Open Graph / social -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="HP Carnes — Carnicería de barrio en La Molina">
+<meta property="og:description" content="Res, pollo, cerdo, embutidos y menudencia importada. Entrega a domicilio. 4.3★ en Google (201 reseñas).">
+<meta property="og:image" content="https://hpcarnes-lamolina.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://hpcarnes-lamolina.com/">
+<meta property="og:locale" content="es_PE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HP Carnes — Carnicería de barrio en La Molina">
+<meta name="twitter:description" content="Res, pollo, cerdo, embutidos y menudencia importada. Entrega a domicilio.">
+<meta name="twitter:image" content="https://hpcarnes-lamolina.com/assets/og-image.jpg">
+
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32">
+<link rel="icon" href="/assets/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+<!-- Local business structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GroceryStore",
+  "name": "HP Carnes",
+  "servesCuisine": "Carnes y embutidos",
+  "image": "https://hpcarnes-lamolina.com/assets/og-image.jpg",
+  "telephone": "+51965728149",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. La Molina 694",
+    "addressLocality": "La Molina",
+    "addressRegion": "Lima",
+    "postalCode": "15026",
+    "addressCountry": "PE"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.3",
+    "reviewCount": "201"
+  },
+  "hasDeliveryMethod": "https://schema.org/OnSitePickup",
+  "url": "https://hpcarnes-lamolina.com/"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --charcoal:#1b1613;
+  --charcoal-2:#241d19;
+  --oxblood:#7a2420;
+  --oxblood-2:#5c1a17;
+  --bone:#efe7d8;
+  --bone-dim:#c9bea9;
+  --brass:#b98a46;
+  --ash:#8b8178;
+  --ember:#e4572e;
+  --maxw:1180px;
+  --radius:3px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bone);
+  color:var(--charcoal);
+  font-family:'Work Sans',system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,.display{
+  font-family:'Fraunces',serif;
+  font-optical-sizing:auto;
+  font-weight:700;
+  line-height:1.02;
+  margin:0;
+  letter-spacing:-0.01em;
+}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+
+/* Skip link for accessibility */
+.skip-link{position:absolute;left:-999px;top:0;background:var(--bone);color:var(--charcoal);padding:12px 18px;z-index:1000}
+.skip-link:focus{left:12px;top:12px}
+
+a:focus-visible, button:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+
+/* ---------- NAV ---------- */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:18px 28px;
+  color:var(--bone);
+  mix-blend-mode:normal;
+  transition:background .4s ease, padding .4s ease, box-shadow .4s ease;
+}
+.nav.scrolled{
+  background:rgba(27,22,19,.92);
+  backdrop-filter:blur(6px);
+  padding:12px 28px;
+  box-shadow:0 6px 24px rgba(0,0,0,.25);
+}
+.nav .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--bone)}
+.nav .brand svg{width:34px;height:34px;flex:none}
+.nav .brand span{font-family:'Fraunces',serif;font-weight:700;font-size:1.05rem;letter-spacing:.02em}
+.nav ul{list-style:none;display:flex;gap:28px;margin:0;padding:0}
+.nav a.link{text-decoration:none;font-size:.94rem;color:var(--bone-dim);border-bottom:1px solid transparent;padding-bottom:2px;transition:color .2s, border-color .2s}
+.nav a.link:hover{color:var(--bone);border-color:var(--brass)}
+.nav .call-btn{
+  display:none;
+}
+@media (max-width:760px){
+  .nav ul{display:none}
+}
+
+/* ---------- HERO ---------- */
+.hero{
+  position:relative;
+  min-height:100svh;
+  overflow:hidden;
+  background:var(--charcoal);
+  display:flex;
+  align-items:flex-end;
+}
+.hero-media{
+  position:absolute;inset:0;
+  overflow:hidden;
+}
+.hero-media video, .hero-media .poster-fallback{
+  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+}
+.hero-scene{
+  position:absolute;inset:-6% -6% -6% -6%;
+  width:112%;height:112%;
+}
+.hero-scene svg{width:100%;height:100%;display:block}
+.layer-back, .layer-mid, .layer-fore{ will-change:transform; }
+.layer-back-drift{ animation:driftBack 26s ease-in-out infinite alternate; transform-origin:center; }
+.layer-mid-drift{ animation:driftMid 18s ease-in-out infinite alternate; transform-origin:center; }
+.layer-fore-drift{ animation:driftFore 12s ease-in-out infinite alternate; transform-origin:center; }
+@keyframes driftBack{ from{transform:scale(1.06) translate(0,0)} to{transform:scale(1.12) translate(-1.2%,-0.8%)} }
+@keyframes driftMid{ from{transform:scale(1.03) translate(0,0)} to{transform:scale(1.08) translate(1.4%,1%)} }
+@keyframes driftFore{ from{transform:translateY(0)} to{transform:translateY(-1.6%)} }
+
+.hero-scrim{
+  position:absolute;inset:0;
+  background:
+    linear-gradient(180deg, rgba(27,22,19,.15) 0%, rgba(27,22,19,.35) 45%, rgba(27,22,19,.92) 100%),
+    linear-gradient(90deg, rgba(27,22,19,.55) 0%, rgba(27,22,19,0) 45%);
+}
+
+.hero-inner{
+  position:relative;z-index:2;
+  width:100%;
+  padding:0 28px 84px;
+  max-width:var(--maxw);
+  margin:0 auto;
+  color:var(--bone);
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  color:var(--brass);
+  font-family:'Fraunces',serif;font-style:italic;font-weight:500;
+  font-size:1.05rem;margin-bottom:18px;
+}
+.hero-eyebrow .rule{width:34px;height:1px;background:var(--brass)}
+.hero h1{
+  font-size:clamp(2.6rem, 7vw, 5.6rem);
+  color:var(--bone);
+  max-width:14ch;
+}
+.hero h1 em{font-style:italic;color:var(--brass);font-weight:600}
+.hero-sub{
+  margin-top:22px;max-width:46ch;
+  font-size:1.08rem;color:var(--bone-dim);
+}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:15px 26px;
+  border-radius:var(--radius);
+  text-decoration:none;
+  font-size:.98rem;font-weight:600;
+  border:1px solid transparent;
+  transition:transform .25s ease, background .25s ease, border-color .25s ease, color .25s ease;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--oxblood);color:var(--bone)}
+.btn-primary:hover{background:var(--ember)}
+.btn-ghost{border-color:rgba(239,231,216,.4);color:var(--bone)}
+.btn-ghost:hover{border-color:var(--brass);color:var(--brass)}
+
+.hero-badge{
+  position:absolute;right:28px;bottom:84px;z-index:2;
+  display:flex;flex-direction:column;align-items:flex-end;
+  color:var(--bone);text-align:right;
+}
+.hero-badge .num{font-family:'Fraunces',serif;font-size:2.1rem;font-weight:700;color:var(--brass)}
+.hero-badge .stars{letter-spacing:2px;color:var(--brass);font-size:.95rem}
+.hero-badge .cap{font-size:.78rem;color:var(--bone-dim);margin-top:2px}
+@media (max-width:760px){ .hero-badge{display:none} }
+
+.scroll-cue{
+  position:absolute;left:50%;bottom:26px;transform:translateX(-50%);
+  z-index:2;color:var(--bone-dim);
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  font-size:.72rem;letter-spacing:.08em;
+}
+.scroll-cue .line{width:1px;height:34px;background:linear-gradient(var(--brass), transparent);animation:cueMove 1.8s ease-in-out infinite}
+@keyframes cueMove{0%{opacity:.2}50%{opacity:1}100%{opacity:.2}}
+
+@media (prefers-reduced-motion: reduce){
+  .layer-back,.layer-mid,.layer-fore,.scroll-cue .line{animation:none !important}
+}
+
+/* ---------- SECTION BASE ---------- */
+section{position:relative}
+.section-pad{padding:110px 0}
+@media (max-width:760px){.section-pad{padding:74px 0}}
+.kicker{
+  font-family:'Fraunces',serif;font-style:italic;color:var(--oxblood);
+  font-size:1.1rem;margin-bottom:14px;
+}
+.section-title{font-size:clamp(2rem,4.4vw,3.1rem);max-width:16ch}
+
+/* ---------- ABOUT ---------- */
+.about{background:var(--bone)}
+.about-grid{
+  display:grid;grid-template-columns:0.9fr 1.1fr;gap:64px;align-items:center;
+}
+@media (max-width:860px){.about-grid{grid-template-columns:1fr;gap:40px}}
+.about-art{
+  position:relative;
+  aspect-ratio:4/5;
+  border-radius:var(--radius);
+  overflow:hidden;
+  background:var(--charcoal);
+}
+.about-art svg{width:100%;height:100%}
+.about-art .parallax-shift{transition:transform .1s linear}
+.about-copy p{font-size:1.06rem;color:#3a3129;max-width:52ch}
+.about-copy p + p{margin-top:16px}
+.stat-row{display:flex;gap:36px;margin-top:38px;flex-wrap:wrap}
+.stat b{display:block;font-family:'Fraunces',serif;font-size:2.2rem;color:var(--oxblood)}
+.stat span{font-size:.85rem;color:var(--ash)}
+
+/* ---------- MENU / SERVICES ---------- */
+.menu{background:var(--charcoal);color:var(--bone)}
+.menu .kicker{color:var(--brass)}
+.menu-list{margin-top:50px;border-top:1px solid rgba(239,231,216,.18)}
+.menu-row{
+  display:grid;grid-template-columns:1.1fr 2fr auto;gap:24px;align-items:baseline;
+  padding:26px 0;border-bottom:1px solid rgba(239,231,216,.18);
+}
+@media (max-width:700px){.menu-row{grid-template-columns:1fr}}
+.menu-row h3{font-size:1.5rem;color:var(--bone)}
+.menu-row p{margin:6px 0 0;color:var(--bone-dim);font-size:.98rem;max-width:56ch}
+.menu-tag{
+  justify-self:end;
+  font-size:.78rem;letter-spacing:.04em;color:var(--brass);
+  border:1px solid rgba(185,138,70,.5);border-radius:100px;padding:6px 14px;
+  white-space:nowrap;height:fit-content;
+}
+@media (max-width:700px){.menu-tag{justify-self:start}}
+.menu-note{margin-top:34px;color:var(--bone-dim);font-size:.92rem}
+
+/* ---------- REVIEWS ---------- */
+.reviews{background:var(--bone-dim);background:#e6ddc8}
+.rating-hero{display:flex;align-items:flex-end;gap:22px;flex-wrap:wrap;margin-bottom:52px}
+.rating-hero .big{font-family:'Fraunces',serif;font-size:5rem;color:var(--oxblood);font-weight:700}
+.rating-hero .meta{padding-bottom:.6rem}
+.rating-hero .stars{color:var(--brass);font-size:1.3rem;letter-spacing:3px}
+.rating-hero .cap{color:var(--ash);font-size:.9rem;margin-top:4px}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+@media (max-width:900px){.review-grid{grid-template-columns:1fr;gap:20px}}
+.review-card{
+  background:var(--bone);
+  border-radius:var(--radius);
+  padding:30px 28px;
+  border-left:3px solid var(--oxblood);
+}
+.review-card p{font-size:1.02rem;color:#3a3129;font-style:italic}
+.review-card .who{margin-top:18px;font-size:.86rem;color:var(--ash);font-style:normal}
+.review-source{margin-top:36px;font-size:.85rem;color:var(--ash)}
+.review-source a{color:var(--oxblood);text-decoration:underline}
+
+/* ---------- HOURS + LOCATION ---------- */
+.visit{background:var(--charcoal);color:var(--bone)}
+.visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+@media (max-width:860px){.visit-grid{grid-template-columns:1fr;gap:44px}}
+.info-block h3{font-size:1.5rem;color:var(--brass);margin-bottom:18px}
+.hours-row{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid rgba(239,231,216,.15);font-size:1rem}
+.hours-row span:first-child{color:var(--bone-dim)}
+.status-pill{
+  display:inline-flex;align-items:center;gap:8px;
+  margin-top:18px;font-size:.9rem;color:#9ad19a;
+}
+.status-pill .dot{width:8px;height:8px;border-radius:50%;background:#4caf50;box-shadow:0 0 0 4px rgba(76,175,80,.2)}
+.map-card{
+  display:block;text-decoration:none;color:var(--bone);
+  border:1px solid rgba(239,231,216,.25);
+  border-radius:var(--radius);
+  overflow:hidden;
+  transition:border-color .25s ease, transform .25s ease;
+}
+.map-card:hover{border-color:var(--brass);transform:translateY(-2px)}
+.map-visual{
+  height:220px;position:relative;overflow:hidden;
+  background:
+    linear-gradient(rgba(27,22,19,.35),rgba(27,22,19,.75)),
+    repeating-linear-gradient(0deg, #2a231e 0 2px, #241d19 2px 42px),
+    repeating-linear-gradient(90deg, #2a231e 0 2px, #241d19 2px 42px);
+}
+.map-visual .pin{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-100%);
+}
+.map-visual .pin svg{width:40px;height:40px;filter:drop-shadow(0 6px 10px rgba(0,0,0,.5))}
+.map-card-body{padding:22px 24px}
+.map-card-body .addr{font-family:'Fraunces',serif;font-size:1.15rem}
+.map-card-body .cta{margin-top:8px;font-size:.86rem;color:var(--brass)}
+.contact-line{display:flex;align-items:center;gap:12px;margin-top:22px;font-size:1.15rem}
+.contact-line a{text-decoration:none;color:var(--bone);border-bottom:1px solid var(--brass)}
+.contact-line svg{width:20px;height:20px;color:var(--brass);flex:none}
+
+/* ---------- FOOTER ---------- */
+footer{background:var(--charcoal-2);color:var(--bone-dim);border-top:1px solid rgba(239,231,216,.12)}
+.foot-grid{padding:64px 0 40px;display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:40px}
+@media (max-width:760px){.foot-grid{grid-template-columns:1fr;gap:32px}}
+.foot-brand{display:flex;align-items:center;gap:10px;color:var(--bone)}
+.foot-brand svg{width:30px;height:30px}
+.foot-brand span{font-family:'Fraunces',serif;font-weight:700;font-size:1.1rem}
+.foot-tag{margin-top:14px;font-size:.92rem;max-width:34ch;color:var(--bone-dim)}
+.foot-col h4{font-size:.82rem;letter-spacing:.06em;color:var(--brass);margin-bottom:14px;font-weight:600;font-family:'Work Sans',sans-serif}
+.foot-col a, .foot-col p{display:block;text-decoration:none;color:var(--bone-dim);font-size:.95rem;margin-bottom:10px}
+.foot-col a:hover{color:var(--bone)}
+.foot-bottom{border-top:1px solid rgba(239,231,216,.12);padding:22px 0;font-size:.82rem;color:var(--ash);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+
+/* tap-to-call sticky mobile bar */
+.mobile-call{
+  position:fixed;left:0;right:0;bottom:0;z-index:120;
+  display:none;
+  background:var(--oxblood);color:var(--bone);
+  text-decoration:none;
+  text-align:center;padding:14px;
+  font-weight:600;font-size:.98rem;
+  box-shadow:0 -6px 20px rgba(0,0,0,.35);
+}
+@media (max-width:760px){ .mobile-call{display:block} body{padding-bottom:54px} }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="nav" id="siteNav">
+  <a class="brand" href="#top" aria-label="HP Carnes — inicio">
+    <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="30" cy="30" r="27" stroke="#B98A46" stroke-width="2"/>
+      <text x="30" y="39" text-anchor="middle" font-family="Fraunces, serif" font-weight="700" font-size="22" fill="#EFE7D8">HP</text>
+      <line x1="17" y1="45" x2="43" y2="45" stroke="#7A2420" stroke-width="3"/>
+    </svg>
+    <span>HP Carnes</span>
+  </a>
+  <ul>
+    <li><a class="link" href="#nosotros">Nosotros</a></li>
+    <li><a class="link" href="#productos">Productos</a></li>
+    <li><a class="link" href="#reseñas">Reseñas</a></li>
+    <li><a class="link" href="#visitanos">Visítanos</a></li>
+  </ul>
+  <a class="btn btn-ghost" style="padding:10px 18px;font-size:.88rem" href="tel:+51965728149">Llamar</a>
+</header>
+
+<main id="main">
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero-media">
+    <!-- Poster / reduced-motion fallback frame -->
+    <img class="poster-fallback" id="posterFallback" src="assets/poster.jpg" alt="Cortes de carne colgados en gancho de acero sobre fondo de brasas, ilustración editorial de HP Carnes" style="display:none">
+
+    <!-- Bespoke looped scene (SVG + CSS transform parallax) stands in for the hero video:
+         autoplay/loop video generation is not available in this environment, so a
+         seamless, GPU-cheap animated illustration provides the same cinematic hero. -->
+    <div class="hero-scene" id="heroScene" aria-hidden="true">
+      <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="emberGlow" cx="30%" cy="95%" r="65%">
+            <stop offset="0%" stop-color="#E4572E" stop-opacity="0.55"/>
+            <stop offset="45%" stop-color="#7A2420" stop-opacity="0.28"/>
+            <stop offset="100%" stop-color="#1B1613" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="bgFade" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#241D19"/>
+            <stop offset="100%" stop-color="#100C0A"/>
+          </linearGradient>
+          <filter id="smoke" x="-50%" y="-50%" width="200%" height="200%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.008 0.02" numOctaves="2" seed="9" result="n"/>
+            <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.93  0 0 0 0 0.87  0 0 0 0 0.75  0 0 0 0.06 0"/>
+          </filter>
+        </defs>
+
+        <!-- BACK layer: smoky gradient backdrop (outer=JS parallax, inner=CSS drift) -->
+        <g class="layer-back">
+        <g class="layer-back-drift">
+          <rect x="-100" y="-100" width="1800" height="1200" fill="url(#bgFade)"/>
+          <rect x="-100" y="-100" width="1800" height="1200" filter="url(#smoke)"/>
+          <circle cx="480" cy="920" r="520" fill="url(#emberGlow)"/>
+        </g>
+        </g>
+
+        <!-- MID layer: hanging cuts on hooks -->
+        <g class="layer-mid">
+        <g class="layer-mid-drift">
+          <line x1="0" y1="120" x2="1600" y2="120" stroke="#3a2f27" stroke-width="6"/>
+          <g stroke="#5c4c3d" stroke-width="4">
+            <line x1="260" y1="120" x2="260" y2="200"/>
+            <line x1="560" y1="120" x2="560" y2="190"/>
+            <line x1="900" y1="120" x2="900" y2="205"/>
+            <line x1="1230" y1="120" x2="1230" y2="185"/>
+          </g>
+          <!-- stylised cut silhouettes -->
+          <path d="M210 200 C190 260 200 340 240 400 C260 440 300 450 320 410 C340 460 300 520 250 520 C190 520 150 440 160 360 C168 290 180 230 210 200 Z" fill="#5c1a17" opacity="0.9"/>
+          <path d="M520 190 C495 250 505 330 545 385 C575 425 615 420 625 375 C650 430 610 500 555 500 C495 500 460 420 470 345 C478 275 495 220 520 190 Z" fill="#7a2420" opacity="0.92"/>
+          <path d="M860 205 C838 260 848 330 882 380 C908 415 944 408 952 368 C974 415 940 480 892 480 C838 480 806 408 815 340 C822 278 838 232 860 205 Z" fill="#5c1a17" opacity="0.88"/>
+          <path d="M1190 185 C1168 235 1176 300 1206 345 C1230 378 1262 372 1270 336 C1290 378 1260 435 1216 435 C1168 435 1140 372 1148 312 C1155 258 1170 216 1190 185 Z" fill="#7a2420" opacity="0.9"/>
+        </g>
+        </g>
+
+        <!-- FORE layer: grill grate silhouette + embers -->
+        <g class="layer-fore">
+        <g class="layer-fore-drift">
+          <g stroke="#100C0A" stroke-width="14" opacity="0.9">
+            <line x1="-50" y1="830" x2="1650" y2="830"/>
+            <line x1="-50" y1="878" x2="1650" y2="878"/>
+            <line x1="-50" y1="926" x2="1650" y2="926"/>
+            <line x1="-50" y1="974" x2="1650" y2="974"/>
+          </g>
+          <g fill="#E4572E" opacity="0.85">
+            <circle cx="220" cy="852" r="4"/>
+            <circle cx="410" cy="900" r="3"/>
+            <circle cx="700" cy="858" r="5"/>
+            <circle cx="990" cy="912" r="3"/>
+            <circle cx="1240" cy="864" r="4"/>
+            <circle cx="1420" cy="924" r="3"/>
+          </g>
+        </g>
+        </g>
+      </svg>
+    </div>
+    <div class="hero-scrim"></div>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-eyebrow"><span class="rule"></span> Carnicería de barrio · La Molina</div>
+    <h1>Carne fresca, cortada con <em>oficio</em>.</h1>
+    <p class="hero-sub">Res, pollo, cerdo, embutidos y menudencia importada, seleccionados a diario para tu parrilla o tu olla de todos los días. Con entrega a domicilio.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="tel:+51965728149">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11 21 3 13 3 4.7c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8Z" fill="currentColor"/></svg>
+        Llamar ahora
+      </a>
+      <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=Av.+La+Molina+694,+La+Molina+15026,+Lima,+Peru" target="_blank" rel="noopener">Cómo llegar</a>
+    </div>
+  </div>
+
+  <div class="hero-badge">
+    <span class="num">4.3</span>
+    <span class="stars">★★★★☆</span>
+    <span class="cap">201 reseñas en Google</span>
+  </div>
+
+  <div class="scroll-cue"><span>DESLIZA</span><span class="line"></span></div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about section-pad" id="nosotros">
+  <div class="wrap about-grid">
+    <div class="about-art">
+      <svg viewBox="0 0 600 750" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de tabla de cortes de carne de HP Carnes">
+        <rect width="600" height="750" fill="#1B1613"/>
+        <circle cx="180" cy="140" r="260" fill="#7A2420" opacity="0.18"/>
+        <g stroke="#B98A46" stroke-width="1.4" opacity="0.6">
+          <circle cx="300" cy="375" r="210" fill="none"/>
+          <circle cx="300" cy="375" r="150" fill="none"/>
+        </g>
+        <g fill="#EFE7D8">
+          <path d="M300 200 C260 240 250 300 270 350 C285 388 320 400 340 370 C360 410 330 460 290 460 C240 460 205 400 215 335 C222 280 260 225 300 200Z" opacity="0.92"/>
+        </g>
+        <g stroke="#EFE7D8" stroke-width="2" fill="none" opacity="0.5">
+          <path d="M180 470 Q300 520 420 470"/>
+          <path d="M170 520 Q300 580 430 520"/>
+          <path d="M190 570 Q300 610 410 570"/>
+        </g>
+        <text x="300" y="660" text-anchor="middle" font-family="Fraunces, serif" font-size="22" fill="#B98A46" font-style="italic">Selección diaria</text>
+      </svg>
+    </div>
+    <div class="about-copy">
+      <p class="kicker">Nosotros</p>
+      <h2 class="section-title">Del proveedor al mostrador, sin atajos.</h2>
+      <p>HP Carnes es una carnicería de barrio en La Molina dedicada a la venta de productos cárnicos: res, pollo, cerdo, gallina, embutidos y menudencia importada, para quienes cocinan a diario y para quienes preparan una parrillada.</p>
+      <p>Atendemos por mostrador y también con entrega a domicilio, para que tengas los cortes que necesitas sin salir de casa.</p>
+      <div class="stat-row">
+        <div class="stat"><b>4.3★</b><span>Calificación en Google</span></div>
+        <div class="stat"><b>201</b><span>Reseñas de clientes</span></div>
+        <div class="stat"><b>10 p.m.</b><span>Hora de cierre</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUCTOS / SERVICIOS ================= -->
+<section class="menu section-pad" id="productos">
+  <div class="wrap">
+    <p class="kicker">En el mostrador</p>
+    <h2 class="section-title">Nuestros productos</h2>
+
+    <div class="menu-list">
+      <div class="menu-row">
+        <h3>Res</h3>
+        <p>Cortes de carne de res para guisos, parrilla y preparaciones del día a día.</p>
+        <span class="menu-tag">Fresco diario</span>
+      </div>
+      <div class="menu-row">
+        <h3>Pollo &amp; gallina</h3>
+        <p>Piezas de pollo y gallina para caldos, guisos y menús familiares.</p>
+        <span class="menu-tag">Fresco diario</span>
+      </div>
+      <div class="menu-row">
+        <h3>Cerdo</h3>
+        <p>Cortes de cerdo para parrilla, frituras y preparaciones tradicionales.</p>
+        <span class="menu-tag">Fresco diario</span>
+      </div>
+      <div class="menu-row">
+        <h3>Embutidos</h3>
+        <p>Variedad de embutidos para completar tu parrillada o el desayuno.</p>
+        <span class="menu-tag">En vitrina</span>
+      </div>
+      <div class="menu-row">
+        <h3>Menudencia importada</h3>
+        <p>Menudencia importada para preparaciones especiales.</p>
+        <span class="menu-tag">Importado</span>
+      </div>
+      <div class="menu-row">
+        <h3>Entrega a domicilio</h3>
+        <p>Haz tu pedido por teléfono y recíbelo en la puerta de tu casa.</p>
+        <span class="menu-tag">Delivery</span>
+      </div>
+    </div>
+    <p class="menu-note">Cortes y disponibilidad varían según el día. Llama al mostrador para confirmar existencias antes de tu visita o pedido.</p>
+  </div>
+</section>
+
+<!-- ================= RESEÑAS ================= -->
+<section class="reviews section-pad" id="reseñas">
+  <div class="wrap">
+    <div class="rating-hero">
+      <span class="big">4.3</span>
+      <div class="meta">
+        <div class="stars">★★★★☆</div>
+        <div class="cap">Calificación promedio de 201 reseñas en Google Maps</div>
+      </div>
+    </div>
+    <p style="max-width:60ch;color:#4a4038;font-size:1.02rem">
+      HP Carnes acumula 201 reseñas verificadas en Google Maps con una calificación de 4.3 sobre 5. Puedes leer el detalle completo de las opiniones directamente en la ficha de Google.
+    </p>
+    <p class="review-source">Consulta las reseñas completas en <a href="https://www.google.com/maps/place/?q=place_id:ChIJ&query=HP+CARNES+La+Molina" target="_blank" rel="noopener">Google Maps →</a></p>
+  </div>
+</section>
+
+<!-- ================= HORARIO + UBICACIÓN ================= -->
+<section class="visit section-pad" id="visitanos">
+  <div class="wrap visit-grid">
+    <div class="info-block">
+      <h3>Horario</h3>
+      <div class="hours-row"><span>Hoy</span><span>Cierra a las 10:00 p.m.</span></div>
+      <div class="status-pill"><span class="dot"></span> Abierto ahora</div>
+      <div class="contact-line">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.4 2.5.6 3.8.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C11 21 3 13 3 4.7c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.6.6 3.8.1.4 0 .8-.3 1.1L6.6 10.8Z" fill="currentColor"/></svg>
+        <a href="tel:+51965728149">965 728 149</a>
+      </div>
+    </div>
+    <div class="info-block">
+      <h3>Ubicación</h3>
+      <a class="map-card" href="https://www.google.com/maps/dir/?api=1&destination=Av.+La+Molina+694,+La+Molina+15026,+Lima,+Peru" target="_blank" rel="noopener">
+        <div class="map-visual">
+          <div class="pin">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8Z" fill="#E4572E"/><circle cx="12" cy="10" r="3" fill="#1B1613"/></svg>
+          </div>
+        </div>
+        <div class="map-card-body">
+          <div class="addr">Av. La Molina 694, La Molina 15026</div>
+          <div class="cta">Abrir ruta en Google Maps →</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <div class="foot-brand">
+        <svg viewBox="0 0 60 60" fill="none" aria-hidden="true">
+          <circle cx="30" cy="30" r="27" stroke="#B98A46" stroke-width="2"/>
+          <text x="30" y="39" text-anchor="middle" font-family="Fraunces, serif" font-weight="700" font-size="22" fill="#EFE7D8">HP</text>
+          <line x1="17" y1="45" x2="43" y2="45" stroke="#7A2420" stroke-width="3"/>
+        </svg>
+        <span>HP Carnes</span>
+      </div>
+      <p class="foot-tag">Carnicería de barrio en La Molina. Res, pollo, cerdo, embutidos y menudencia importada, con entrega a domicilio.</p>
+    </div>
+    <div class="foot-col">
+      <h4>CONTACTO</h4>
+      <a href="tel:+51965728149">965 728 149</a>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=Av.+La+Molina+694,+La+Molina+15026,+Lima,+Peru" target="_blank" rel="noopener">Av. La Molina 694, La Molina 15026</a>
+    </div>
+    <div class="foot-col">
+      <h4>NAVEGACIÓN</h4>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#productos">Productos</a>
+      <a href="#reseñas">Reseñas</a>
+      <a href="#visitanos">Visítanos</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© <span id="year"></span> HP Carnes · La Molina, Lima</span>
+    <span>Sitio no oficial, elaborado a partir de datos públicos de Google Maps</span>
+  </div>
+</footer>
+
+<a class="mobile-call" href="tel:+51965728149">📞 Llamar a HP Carnes · 965 728 149</a>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// Nav background on scroll
+const nav = document.getElementById('siteNav');
+const onScrollNav = () => {
+  if (window.scrollY > 40) nav.classList.add('scrolled');
+  else nav.classList.remove('scrolled');
+};
+document.addEventListener('scroll', onScrollNav, {passive:true});
+onScrollNav();
+
+// Reduced motion check
+const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (prefersReduced) {
+  document.getElementById('heroScene').style.display = 'none';
+  const poster = document.getElementById('posterFallback');
+  poster.style.display = 'block';
+}
+
+// Transform-based scroll parallax, 3 depths, rAF-throttled, disabled under reduced motion
+if (!prefersReduced) {
+  const back = document.querySelector('.layer-back');
+  const mid  = document.querySelector('.layer-mid');
+  const fore = document.querySelector('.layer-fore');
+  const aboutArt = document.querySelector('.about-art svg');
+
+  let ticking = false;
+  function updateParallax(){
+    const y = window.scrollY;
+    const heroH = window.innerHeight;
+    if (y < heroH * 1.4) {
+      if (back) back.style.transform = `translate3d(0, ${y*0.10}px, 0)`;
+      if (mid)  mid.style.transform  = `translate3d(0, ${y*0.22}px, 0)`;
+      if (fore) fore.style.transform = `translate3d(0, ${y*0.36}px, 0)`;
+    }
+    const artRect = document.querySelector('.about-art')?.getBoundingClientRect();
+    if (artRect && aboutArt) {
+      const progress = (window.innerHeight - artRect.top) / (window.innerHeight + artRect.height);
+      const shift = Math.max(-1, Math.min(1, progress - 0.5)) * 24;
+      aboutArt.style.transform = `translate3d(0, ${shift}px, 0) scale(1.04)`;
+    }
+    ticking = false;
+  }
+  document.addEventListener('scroll', () => {
+    if (!ticking) { requestAnimationFrame(updateParallax); ticking = true; }
+  }, {passive:true});
+  updateParallax();
+}
+</script>
+</body>
+</html>
